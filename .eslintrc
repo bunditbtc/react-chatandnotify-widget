@@ -1,0 +1,23 @@
+{   
+  "rules": {
+    "import/order": "off",
+    "react/jsx-uses-react": "off",
+    "react/react-in-jsx-scope": "off"
+  }
+  // "rules": {
+  //   "import/order": "off",
+  //   "react/jsx-uses-react": "off",
+  //   "react/react-in-jsx-scope": "off",
+  //   "@typescript-eslint/no-unused-vars": "off", // Disable specific TypeScript rule
+  //   "@typescript-eslint/no-explicit-any": "off"    
+  // },
+  // "overrides": [
+  //   {
+  //     "files": ["*.test.js"], // Apply these rules only to test files
+  //     "rules": {
+  //       "no-unused-expressions": "off",
+  //       "no-console": "off"
+  //     }
+  //   }
+  // ]
+}

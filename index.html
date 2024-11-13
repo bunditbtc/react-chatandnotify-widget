@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>React Chat Widget</title>
+</head>
+<body>
+  <!-- Include React and ReactDOM UMD builds -->
+  <script src="https://unpkg.com/react/umd/react.production.min.js"></script>
+  <script src="https://unpkg.com/react-dom/umd/react-dom.production.min.js"></script>
+
+  <!-- Include your index.js -->
+  <script src="./lib/index.js"></script>
+
+  <script>
+   // Access the library via the global object, which is 'react-chat-widget' as defined in the webpack config
+    console.log(window["react-chat-widget"]);
+    
+    // Access the library
+    const Widget = window["react-chat-widget"].default;
+    // Now you can use the ChatWidget in your code
+  </script>
+</body>
+</html>
